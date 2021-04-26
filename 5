@@ -1,0 +1,11 @@
+public class p3 {
+    int i;
+    private p3() {
+        i = 6;
+        System.out.println("constructor used");
+    }
+    public static void main(String[] args){
+        p3 t = new p3();
+        System.out.println("the value is" + t.i);
+    }
+}
