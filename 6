@@ -1,0 +1,20 @@
+public class p3 {
+    protected void info(){
+        System.out.println("blah blah");
+    }
+}
+
+class shout extends p3 {
+    public void info() {
+        System.out.println("shout!!!!!...");
+    }
+}
+class main{
+    public static void main(String[] args){
+       p3 j = new p3();
+       shout s = new shout();
+        j.info();
+    }
+}
+
+or s.info(); in place of j.info(); or both
